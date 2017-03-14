@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015.07.31 「MilboxTouch」のプロトタイプを発表しました！
+title: 「MilboxTouch」のプロトタイプを発表しました！
 id: 1260
 comment: false
 categories:

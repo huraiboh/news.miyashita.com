@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2016.02.04 SXSW2016 のInteractive Innovation Awardsファイナリストに選出されました！
+title: SXSW2016 のInteractive Innovation Awardsファイナリストに選出されました！
 id: 1546
 comment: false
 categories:

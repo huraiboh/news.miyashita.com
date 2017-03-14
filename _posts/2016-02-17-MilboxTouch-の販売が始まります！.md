@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2016.02.17 MilboxTouch の販売が始まります！
+title: MilboxTouch の販売が始まります！
 id: 1560
 comment: false
 categories:

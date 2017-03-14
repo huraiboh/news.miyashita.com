@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015.05.14 Techtile Toolkit ワークショップ開催
+title: Techtile Toolkit ワークショップ開催
 id: 1182
 comment: false
 categories:

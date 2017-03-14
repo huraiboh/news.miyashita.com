@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2016.03.14 MilboxTouch が「トレたま」にて紹介されました
+title: MilboxTouch が「トレたま」にて紹介されました
 id: 1660
 comment: false
 categories:

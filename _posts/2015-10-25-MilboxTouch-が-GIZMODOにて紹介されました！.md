@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015.10.25 MilboxTouch が GIZMODOにて紹介されました！
+title: MilboxTouch が GIZMODOにて紹介されました！
 id: 1316
 comment: false
 categories:

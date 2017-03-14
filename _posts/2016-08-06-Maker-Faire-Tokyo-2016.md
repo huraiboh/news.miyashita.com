@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2016.08.06-07　Maker Faire Tokyo 2016
+title: Maker Faire Tokyo 2016
 id: 2067
 comment: false
 categories:

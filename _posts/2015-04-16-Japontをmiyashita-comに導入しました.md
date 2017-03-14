@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015.04.16 Japontをmiyashita.comに導入しました
+title: Japontをmiyashita.comに導入しました
 id: 638
 comment: false
 categories:
