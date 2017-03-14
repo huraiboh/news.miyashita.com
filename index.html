@@ -10,6 +10,11 @@ title: '明治大学 宮下研究室 最新情報'
         <date class="pr2 h4">{{ post.date | date: '%Y.%m.%d' }}</date>
         <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
       </h2>
+      <div class="p0">
+        {% assign custom_url = site.url | append: site.baseurl %}
+        {% assign full_base_url = site.github.url | default: custom_url %}
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{full_base_url}}{{post.url}}" data-text="{{post.title}} | 宮下研究室">Tweet</a>
+      </div>
     </header>
     <section class="mx1 my3">
       {{ post.excerpt }}
@@ -35,11 +40,6 @@ title: '明治大学 宮下研究室 最新情報'
           {% endfor %}
         </div>
       {% endif %}
-      <div class="pb1">
-        {% assign custom_url = site.url | append: site.baseurl %}
-        {% assign full_base_url = site.github.url | default: custom_url %}
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{full_base_url}}{{post.url}}" data-text="{{post.title}} | 宮下研究室" data-size="large">Tweet</a>
-      </div>
     </footer>
   </article>
 {% endfor %}
