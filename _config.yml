@@ -1,0 +1,45 @@
+host: 0.0.0.0
+baseurl: ''
+permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: /page-:num
+excerpt_separator: <!--more-->
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+feed:
+  path: atom.xml
+twitter:
+  username: MiyashitaLab
+prose:
+  rooturl: _posts
+  siteurl: https://news.miyashita.com
+  relativeLinks: https://news.miyashita.com/links.jsonp
+  media: assets
+  ignore:
+    - _config.yml
+    - index.html
+  metadata:
+    _posts:
+      - name: categories
+        field:
+          element: text
+          label: カテゴリ（e.g. 2015年）
+          value: 2017年
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+          label: タイトル
+          value:
+      - name: date
+        field:
+          element: text
+          label: イベントの日時
+          value: CURRENT_DATETIME

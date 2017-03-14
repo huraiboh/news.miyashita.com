@@ -1,0 +1,57 @@
+---
+layout: default
+title: '明治大学 宮下研究室 最新情報'
+---
+
+{% for post in paginator.posts %}
+  <article class="px2 mt3">
+    <header class="pb1">
+      <h2 class="mx1 my0">
+        <date class="pr2 h4">{{ post.date | date: '%Y.%m.%d' }}</date>
+        <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+      </h2>
+    </header>
+    <section class="mx1 my3">
+      {{ post.excerpt }}
+
+      {% capture content_words %}
+        {{ post.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+      {% endcapture %}
+      {% if excerpt_words != content_words %}
+        <p>
+          <a href="{{site.baseurl}}{{post.url}}" class="btn btn-outline">続きを読む ▶</a>
+        </p>
+      {% endif %}
+    </section>
+    <footer class="pt1 pb3 px1 h5">
+      {% if post.categories.length != 0 %}
+        <div class="py1">
+          <span class="mr1 pr1 border-right">Categories</span>
+          {% for category in post.categories %}
+            <a href="#" class="mr1">#{{ category }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </footer>
+  </article>
+{% endfor %}
+
+<!-- Pagination links -->
+<nav class="pt1 pb2 flex justify-center center">
+  <div class="col-4">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">&lt;&#x20;Previous</a>
+    {% endif %}
+  </div>
+  <div class="col-4">
+    <span>{{ paginator.page }} / {{ paginator.total_pages }}</span>
+  </div>
+  <div class="col-4">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Next&#x20;&gt;</a>
+    {% endif %}
+  </div>
+</nav>

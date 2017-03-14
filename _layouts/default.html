@@ -1,0 +1,41 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{page.title}}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="none" />
+  {% feed_meta %}
+  {% seo title=false %}
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+</head>
+<body>
+  <div class="max-width-4 mx-auto">
+    <header class="pt3 pb2 mb1 center">
+      <h1 class="m0">
+        <a href="{{site.baseurl}}/">明治大学 宮下研究室 最新情報</a>
+      </h1>
+    </header>
+    <nav class="center">
+      <ul class="list-reset clearfix">
+        <li class="col col-4 inline-block px1 border-right">
+          <a href="{{site.baseurl}}/">Home</a>
+        </li>
+        <li class="col col-4 inline-block px1 border-right">
+          <a href="http://miyashita.com">Miyashita.com</a>
+        </li>
+        <li class="col col-4 inline-block px1">
+          <a href="http://research.miyashita.com">Research</a>
+        </li>
+      </ul>
+    </nav>
+
+    {{ content }}
+
+    <footer class="pt2 pb2 center h5">
+      <p>&copy; 宮下研究室</p>
+    </footer>
+  </div>
+</body>
