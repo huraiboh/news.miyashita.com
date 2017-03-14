@@ -35,6 +35,11 @@ title: '明治大学 宮下研究室 最新情報'
           {% endfor %}
         </div>
       {% endif %}
+      <div class="py1 right-align">
+        {% assign custom_url = site.url | append: site.baseurl %}
+        {% assign full_base_url = site.github.url | default: custom_url %}
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{full_base_url}}{{post.url}}" data-text="{{post.title}}" data-size="large">Tweet</a>
+      </div>
     </footer>
   </article>
 {% endfor %}

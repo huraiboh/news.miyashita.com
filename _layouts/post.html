@@ -6,7 +6,7 @@ section: blog
   <header class="pb1">
     <h2 class="mx1 my0">
       <date class="pr2 h4">{{ page.date | date: '%Y.%m.%d' }}</date>
-      <a href="{{site.baseurl}}{{post.url}}">{{ page.title }}</a>
+      <a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a>
     </h2>
   </header>
   <section class="mx1 my3">
@@ -21,5 +21,10 @@ section: blog
         {% endfor %}
       </div>
     {% endif %}
+    <div class="py1 right-align">
+      {% assign custom_url = site.url | append: site.baseurl %}
+      {% assign full_base_url = site.github.url | default: custom_url %}
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{full_base_url}}{{page.url}}" data-text="{{page.title}}" data-size="large">Tweet</a>
+    </div>
   </footer>
 </article>
