@@ -13,16 +13,6 @@ body {
   font-size: 16px;
 }
 
-@media(max-width:40em) {
-  html,
-  body {
-    font-size: 14px;
-  }
-  article > section img {
-    max-width: 100%;
-  }
-}
-
 header {
   border-bottom-color: #3db680;
   border-bottom-width: 3px;
@@ -84,4 +74,14 @@ article > footer {
   border-top-color: #97d3e3;
   border-top-width: 1px;
   border-top-style: solid;
+}
+
+@media(max-width:40em) {
+  html,
+  body {
+    font-size: 14px;
+  }
+  article > section img {
+    max-width: 100%;
+  }
 }
