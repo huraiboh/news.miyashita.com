@@ -28,17 +28,17 @@ title: '明治大学 宮下研究室 最新情報'
     </section>
     <footer class="pt1 pb3 px1 h5">
       {% if post.categories.length != 0 %}
-        <div class="py1">
+        <div class="pb1">
           <span class="mr1 pr1 border-right">Categories</span>
           {% for category in post.categories %}
             <a href="#" class="mr1">#{{ category }}</a>
           {% endfor %}
         </div>
       {% endif %}
-      <div class="py1 right-align">
+      <div class="pb1">
         {% assign custom_url = site.url | append: site.baseurl %}
         {% assign full_base_url = site.github.url | default: custom_url %}
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{full_base_url}}{{post.url}}" data-text="{{post.title}}" data-size="large">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{full_base_url}}{{post.url}}" data-text="{{post.title}} | 宮下研究室" data-size="large">Tweet</a>
       </div>
     </footer>
   </article>
