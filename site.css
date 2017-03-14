@@ -30,7 +30,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:hover > * {
   text-decoration: underline;
 }
 
