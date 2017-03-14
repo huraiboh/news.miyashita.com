@@ -1,0 +1,18 @@
+{
+  "name": "news.miyashita.com",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "npm-run-all -p build:*",
+    "build:postcss": "postcss src/site.css --dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MiyashitaLab",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "csswring": "^5.1.1",
+    "npm-run-all": "^4.0.2",
+    "postcss": "^5.2.16",
+    "postcss-cli": "^3.0.0-beta",
+    "postcss-cssnext": "^2.9.0"
+  }
+}
