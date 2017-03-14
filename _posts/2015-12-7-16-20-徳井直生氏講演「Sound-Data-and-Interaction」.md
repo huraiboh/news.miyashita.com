@@ -5,7 +5,6 @@ id: 1418
 comment: false
 categories:
   - 2015年
-date: 2015-12-06 10:06:46
 ---
 
 [![徳井氏講演](/wp-content/uploads/2015/12/徳井氏講演.jpg)](/wp-content/uploads/2015/12/徳井氏講演.jpg)

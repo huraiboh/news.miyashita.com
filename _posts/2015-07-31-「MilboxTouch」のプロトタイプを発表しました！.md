@@ -5,7 +5,6 @@ id: 1260
 comment: false
 categories:
   - 2015年
-date: 2015-07-31 14:06:01
 ---
 
 D1 の加藤邦拓くんの研究，ExtensionSticker の技術を応用したタッチインタフェース搭載型ダンボール製 VR ゴーグル，MilboxTouchのプロトタイプを発表しました．

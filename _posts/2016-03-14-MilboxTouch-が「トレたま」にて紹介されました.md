@@ -5,7 +5,6 @@ id: 1660
 comment: false
 categories:
   - 2016年
-date: 2016-03-19 16:33:47
 ---
 
 MilboxTouch がテレビ東京 WBS「トレたま」にて紹介されました．

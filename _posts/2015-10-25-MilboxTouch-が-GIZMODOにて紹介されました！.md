@@ -5,7 +5,6 @@ id: 1316
 comment: false
 categories:
   - 2015年
-date: 2015-10-26 23:32:59
 ---
 
 宮下研究室が技術協力をしている，

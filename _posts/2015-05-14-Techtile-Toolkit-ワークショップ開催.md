@@ -5,7 +5,6 @@ id: 1182
 comment: false
 categories:
   - 2015年
-date: 2015-05-14 00:31:43
 ---
 
 慶応大学の南澤先生にお越しいただき，Techtile Toolkitを用いた触覚システムを作るワークショップを開催しました！

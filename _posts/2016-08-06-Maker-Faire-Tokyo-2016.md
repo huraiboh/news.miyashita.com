@@ -5,7 +5,6 @@ id: 2067
 comment: false
 categories:
   - 2016年
-date: 2016-08-06 12:00:17
 ---
 
 8/6-7に開催された[Maker Faire Tokyo 2016](http://makezine.jp/event/makers2016/meijidaigakumiyashita/)に出展してきました！
