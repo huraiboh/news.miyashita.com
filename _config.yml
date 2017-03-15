@@ -13,7 +13,7 @@ gems:
 feed:
   path: atom.xml
 twitter:
-  username: MiyashitaLab
+  username: miyashita_lab
 prose:
   rooturl: _posts
   siteurl: https://news.miyashita.com
