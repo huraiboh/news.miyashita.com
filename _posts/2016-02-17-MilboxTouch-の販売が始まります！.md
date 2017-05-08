@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MilboxTouch の販売が始まります！
-id: 1560
+_id: 1560
 comment: false
 categories:
   - 2016年

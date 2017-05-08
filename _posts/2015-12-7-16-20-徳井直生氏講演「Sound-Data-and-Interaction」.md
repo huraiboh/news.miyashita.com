@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '2015.12.7 16:20-徳井直生氏講演「Sound, Data and Interaction」'
-id: 1418
+_id: 1418
 comment: false
 categories:
   - 2015年

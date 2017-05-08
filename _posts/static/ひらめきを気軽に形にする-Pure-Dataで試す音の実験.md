@@ -1,6 +1,6 @@
 ---
 title: ひらめきを気軽に形にする-Pure Dataで試す音の実験-
-id: 1307
+_id: 1307
 comment: false
 categories:
   - 2015年

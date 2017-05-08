@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MilboxTouch が「トレたま」にて紹介されました
-id: 1660
+_id: 1660
 comment: false
 categories:
   - 2016年
