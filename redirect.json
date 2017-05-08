@@ -1,0 +1,9 @@
+---
+---
+{% assign posts = (site.posts | where_exp: "item", "item._id") %}
+{
+  {% for page in posts %}
+  "{{ page._id }}": "{{ site.url }}{{ page.url }}",
+  {% endfor %}
+  "": "/"
+}
