@@ -24,6 +24,12 @@ prose:
     - index.html
   metadata:
     _posts:
+      - name: published
+        field:
+          element: checkbox
+          label: 公開する
+          help: 公開するか下書きにするか
+          value: true
       - name: categories
         field:
           element: text
